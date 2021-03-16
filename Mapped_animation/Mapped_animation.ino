@@ -1,3 +1,4 @@
+
 #include <Adafruit_NeoPixel.h>
 #include "frames.h"
 
@@ -35,6 +36,6 @@ void loop() {
  }
  strip.show();
  delay(500);
- whichFrame = (whichFrame + 1) %4;
+ whichFrame = (whichFrame + 1) %2;
  
 }
